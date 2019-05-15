@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ads.Android</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_login">Welcome, Please Login</string>
+    <string name="login_button">Login</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="save_marker_button">Save</string>
+    <string name="threshold">Threshold</string>
+    <string name="filter_button">Filter</string>
+    <string name="no_filter">No Filter</string>
+</resources>
