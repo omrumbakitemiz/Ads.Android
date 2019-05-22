@@ -23,6 +23,7 @@
         app:layout_constraintTop_toTopOf="@id/categories_spinner" />
 
     <ListView
+        android:id="@+id/campaigns_list_view"
         android:layout_width="395dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -40,7 +41,7 @@
         android:layout_height="35dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/categories_label"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -54,4 +55,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/threshold_input"
         app:layout_constraintTop_toTopOf="@id/categories_spinner" />
+
+    <TextView
+        android:id="@+id/categories_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/categories_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

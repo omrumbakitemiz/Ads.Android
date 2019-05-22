@@ -10,4 +10,6 @@
     <string name="threshold">Threshold</string>
     <string name="filter_button">Filter</string>
     <string name="no_filter">No Filter</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="categories_label">Categories</string>
 </resources>

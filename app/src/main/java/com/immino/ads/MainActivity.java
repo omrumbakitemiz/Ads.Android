@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(mapIntent);
                     return true;
                 case R.id.navigation_login:
-                    Intent loginIntent = new Intent(getBaseContext(), LoginActivity.class);
+                    Intent loginIntent = new Intent(getBaseContext(), SignInActivity.class);
                     startActivity(loginIntent);
                     return true;
 
